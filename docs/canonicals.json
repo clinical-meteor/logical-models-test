@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "logical-models-test",
+    "type" : "ImplementationGuide",
+    "url" : "https://github.com/clinical-meteor/logical-models-test/ImplementationGuide/logical-models-test",
+    "version" : "0.1.0",
+    "name" : "LogicalModelsIG"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/clinical-meteor/logical-models-test/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  }
+]
