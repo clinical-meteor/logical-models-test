@@ -122,14 +122,14 @@ menu:
 # look like:
 #
 
-# resources:
-#   Binary/my-logical-example:
-#     extension:
-#       - url: http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format
-#         valueCode: application/fhir+json
-#     name: Structure definition
-#     description: "My structure definition"
-#     exampleCanonical: http://example.org/StructureDefinition/MyLM
+resources:
+  Binary/my-logical-example:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format
+        valueCode: application/fhir+json
+    name: Structure definition
+    description: "My structure definition"
+    exampleCanonical: https://clinical-meteor.github.io/logical-models-test/StructureDefinition-MyLM.json
 
 # resources:
 #   Patient/my-example-patient:
