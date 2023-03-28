@@ -128,8 +128,15 @@ resources:
       - url: http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format
         valueCode: application/fhir+json
     name: Structure definition
-    description: "My structure definition"
-    exampleCanonical: https://clinical-meteor.github.io/logical-models-test/StructureDefinition-MyLM.json
+    description: "My structure definition 1"
+    exampleCanonical: https://github.com/clinical-meteor/logical-models-test/StructureDefinition/MyLM
+  Binary/my-logical-example2:
+    extension:
+      - url: http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format
+        valueCode: application/fhir+json
+    name: Structure definition
+    description: "My structure definition 2"
+    exampleCanonical: https://github.com/clinical-meteor/logical-models-test/StructureDefinition/MyLM
 
 # resources:
 #   Patient/my-example-patient:
